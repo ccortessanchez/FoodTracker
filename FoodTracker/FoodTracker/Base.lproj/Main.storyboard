@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Y7P-Xl-FmA">
-                                <rect key="frame" x="16" y="40" width="343" height="447.5"/>
+                                <rect key="frame" x="16" y="40" width="343" height="499.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-BD-B9u">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -55,6 +55,9 @@
                                             <outletCollection property="gestureRecognizers" destination="0iH-Hv-QvZ" appends="YES" id="9IA-Yb-V8D"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ehk-lK-DMC" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="455.5" width="252" height="44"/>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="fl4-Wi-Uqy" secondAttribute="trailing" id="DPy-Xg-OEW"/>
